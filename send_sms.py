@@ -6,7 +6,7 @@ def sendSms(message, number):
     client = Client(account_sid, auth_token) 
  
     message = client.messages.create( 
-                              from_='+12183334545',  
+                              from_='+12183434444',  
                               body=message,      
                               to=number 
                           ) 
@@ -16,4 +16,4 @@ def sendSms(message, number):
 
 
 #if __name__ == "__main__":
- #   sendSms('Test message', '+14379971245')
+ #   sendSms('Test message', '+14373334545')
